@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-validation">
+            <div class="input-over">
+                <label for="number">Day</label>
+                <input type="number" placeholder="DD" id="day">
+            </div>
+            <div class="input-over">
+                <label for="number">Month</label>
+                <input type="number" placeholder="MM" id="month">
+            </div>
+            <div class="input-over">
+                <label for="number">Year</label>
+                <input type="number" placeholder="YY" id="year">
+            </div>
+        </div>
+        
+            
+        <div><button id="btn"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+        </div> 
+        <div class="result-section">
+            <div class="year-result">
+                <p id="result-year">--</p><h3>years</h3>
+            </div>
+            <div class="year-result">
+                <p id="result-month">--</p><h3>months</h3></div>
+            <div class="year-result">
+                <p id="result-day">--</p>
+                <h3>days</h3>
+            </div>
+        </div>
+    </div>
+
+    <script async src="app.js"></script>
+</body>
+</html>
